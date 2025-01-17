@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #dee2e6;
+}
+.head1{
+    display: flex;
+    margin: 20px;
+}
+.head1 h2{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.head1 h3{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-weight: 10;
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    margin-top: 30px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    color: #eb984e;
+    transition: 0.5s;
+}
+/* nav{
+    margin: 35px;
+    padding-right: 60px;
+    display: flex;
+    gap: 20px;
+} */
+.container5{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.container5 .req{
+    margin-top: 10px;
+}
+.container5 .req a{
+    color: black;
+}
+.button5{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid black;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    background-color: #ff922b;
+    /* transition: 0.5ms; */
+    margin-left: -10px;
+}
+/* .button5:hover{
+    background: white;
+} */
+.button5 a{
+    text-decoration: none;
+    color: black;
+}
+.con{
+    margin-bottom: 30px;
+}
+.ph{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.mail{
+    font-size: 18px;
+}
+.details1{
+    display: flex;
+    gap: 100px;
+}
+.details1 p{
+    margin-bottom: 50px;
+}
+.details2{
+    margin-left: -250px;
+    
+}
+/* .mes{
+    display: flex;
+    gap: 90px;
+    margin-top: 20px;
+} */
+.button4{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid black;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    background-color: #ff922b;
+    transition: 0.5ms;
+    cursor: pointer;
+}
+.button4:hover{
+    background: white;
+}
+.button4 a{
+    text-decoration: none;
+    color: black;
+}
+.details2 form{
+    width: 100%;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    /* background:#606060; */
+    padding: 15px;
+    margin: 15px;
+    color:black;
+    font-size: 18px;
+    border-radius: 6px;
+}
+/* button{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+} */
+/* .button4 {
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+} */
+.line{
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.container4{
+    display: flex;
+    margin: 50px;
+    gap: 300px;
+}
+.container4 a{
+    text-decoration: none;
+    color: black;
+}
+.head5{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+nav .bi{
+    display: none;
+}
+@media only screen and (max-width: 600px){
+    .container1{
+        width: 100%;
+    }
+    nav .bi-list{
+        margin-top: 25px;
+        margin-right: 20px;
+    }
+    nav .bi{
+        display: block;
+        font-size: 30px;
+    }
+    nav ul{
+        background: #808080;
+        position: fixed;
+        top: 0;
+        right:-200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    nav ul .bi-x{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    .container5{
+        display: block;
+    }
+    .details{
+        width: 100%;
+        margin: 20px;
+    }
+    .con{
+        width: 300px;
+    }
+    .ph{
+        width: 300px;
+    }
+    .mail{
+        width: 300px;
+    }
+    .button5{
+        margin-top: 10px;
+        margin: 20px;
+    }
+    .details2{
+        width: 100%;
+        margin: 10px;
+    }
+    .container4{
+        display: block;
+        width: 100%;
+    }
+    .call{
+        margin-bottom: 10px;
+    }
+    .to{
+        margin-bottom: 10px;
+    }
+    .req{
+        margin-bottom: 10px;
+    }
+    .right{
+        margin-top: 30px;
+    }
+    form{
+        margin-top: 40px;
+    }
+    form input, form textarea{
+        width: 300px;
+    }
+}
+#msg{
+    color: green;
+    margin: 20px;
+    font-size: 20px;
+    
+}

@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #dee2e6;
+}
+.head1{
+    display: flex;
+    margin: 20px;
+}
+.head1 h2{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.head1 h3{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-weight: 10;
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    margin-top: 30px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    color: #eb984e;
+    transition: 0.5s;
+}
+/* nav{
+    margin: 35px;
+    padding-right: 60px;
+    display: flex;
+    gap: 20px;
+} */
+.pro1{
+    margin-left: 100px;
+    margin-top: 90px;
+}
+.pro2{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.project1{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+img{
+    width: 400px;
+}
+.content1{
+    font-size: 20px;
+    width: 600px;
+}
+.content1 p{
+    margin-top: 10px;
+}
+.project1 .content1 a{
+    text-decoration: none;
+    color: blue;
+}
+/* .project2{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.content3{
+    font-size: 20px;
+    width: 600px;
+}
+.content3 p{
+    margin-top: 10px;
+} */
+.project3{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.content5{
+    font-size: 20px;
+    width: 600px;
+}
+.content5 p{
+    margin-top: 10px;
+}
+.project3 .content5 a{
+    text-decoration: none;
+    color: blue;
+}
+.project4{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.content7{
+    font-size: 20px;
+    width: 600px;
+}
+.content7 p{
+    margin-top: 10px;
+}
+.line{
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.container4{
+    display: flex;
+    margin: 50px;
+    gap: 300px;
+}
+.container4 a{
+    text-decoration: none;
+    color: black;
+}
+.head5{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+nav .bi{
+    display: none;
+}
+@media only screen and (max-width: 600px){
+    .container1{
+        width: 100%;
+    }
+    nav .bi-list{
+        margin-top: 25px;
+        margin-right: 20px;
+    }
+    nav .bi{
+        display: block;
+        font-size: 30px;
+    }
+    nav ul{
+        background: #808080;
+        position: fixed;
+        top: 0;
+        right:-200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    nav ul .bi-x{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    .container2{
+        width: 100%;
+    }
+    img{
+        width: 300px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .content1{
+        font-size: 20px;
+        width: 300px;
+    }
+    .content5{
+        font-size: 20px;
+        width: 300px;
+    }
+    .content5 h2{
+        font-size: 30px;
+    }
+    .content7{
+        font-size: 20px;
+        width: 100%;
+    }
+    .content7 p{
+        margin-top: 10px;
+        width: 300px;
+    }
+    .pro1{
+        margin: 20px;
+    }
+    .pro2{
+        width: 100%;
+        margin: 20px;
+    }
+    .project1{
+        display: block;
+        margin: 20px;
+    }
+    .project3{
+        display: block;
+        margin: 20px;
+    }
+    .project4{
+        display: block;
+        margin: 20px;
+    }
+    .container4{
+        display: block;
+        width: 100%;
+    }
+    .call{
+        margin-bottom: 10px;
+    }
+    .to{
+        margin-bottom: 10px;
+    }
+    .req{
+        margin-bottom: 10px;
+    }
+    .right{
+        margin-top: 30px;
+    }
+}
