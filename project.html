@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="pro.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container1">
+        <div class="head1">
+            <h1>🟠</h1>
+            <h2>Shri Sanjay Varshan</h2>
+            <h3>Developer</h3>
+        </div>
+        <nav>
+            <ul id="sidemenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <i class="bi bi-x" onclick="closemenu()"></i>
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16" onclick="closemenu()">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+                  </svg> -->
+            </ul>
+            <i class="bi bi-list" onclick="openmenu()"></i>
+            <!-- <div class="con1">
+                <a href="resume.html">Resume</a>
+            </div>
+            <div class="con1">
+                <a href="">Projects</a>
+            </div>
+            <div class="con1">
+                <a href="contact.html">Contact</a>
+            </div> -->
+        </nav>
+    </div>
+    <div class="container2">
+        <div class="pro1">
+            <h1>Projects</h1>
+        </div>
+        <div class="pro2">
+            <div class="project4">
+                <div class="content7">
+                    <h2>AI/ML Solution For Video and Voice Based DeepFake Detection</h2>
+                    <p>Developed a robust solution to detect deepfakes in videos and voice recordings using AI/ML techniques. The system analyzes visual and audio data to identify anomalies indicative of manipulation.</p>
+                    
+                    <p><br>Video Analysis: Deep learning models to detect frame-level inconsistencies.<br>
+                        <br>Voice Analysis: ML techniques to identify synthetic audio patterns.<br>
+                        <br>Real-time Detection: Fast and scalable system for practical use<br></p>
+
+                    <p><br><b>Languages used:</b>Python for programming and implementation.<br>
+                        TensorFlow and PyTorch for building deep learning models.</p>
+                </div>
+                <div class="content8">
+                    <img src="Ai.webp">
+                </div>
+            </div>
+            <div class="project1">
+                <div class="content1">
+                    <h2>Landing Page</h2>
+                    <p>Developed a responsive and visually appealing landing page using HTML and CSS. The page features a hero section, responsive navigation, an about section, services highlights, a contact form, and a footer with social links</p>
+
+                        <!-- <p>Task: Landing Page</p> -->
+                        
+                        <p>Languages used: HTML, CSS</p>
+                        <p>GitHub link:<a href="https://github.com/ShriSanjay15/landingspace/tree/main/landing%20page" target="_blank">Click here</a></p>
+                </div>
+                <div class="content2">
+                    <img src="landi page.jpg">
+                </div>
+            </div>
+            <!-- <div class="project2">
+                <div class="content3">
+                    <h2>Portfolio</h2>
+                    <p>Built a responsive portfolio website using HTML and CSS to showcase my skills and projects. Key features include a personal introduction, project gallery, about section, contact form, and social links. Designed with a clean layout and optimized for all devices using media queries.</p>
+
+                         Task: Portfolio -->
+                        
+                        <!-- <p>Languages used: HTML, CSS</p>
+                        <p>Github link:<a href="https://github.com/ShriSanjay15/portfolio">click here</a></p>
+                </div>
+                <div class="content4">
+                    <img src="portfolio.jpeg">
+                </div>
+            </div> -->
+            <div class="project3">
+                <div class="content5">
+                    <h2>Temperature Converter</h2>
+                    <p>Developed a simple and interactive temperature converter using HTML, CSS, and JavaScript. The application allows users to convert temperatures between Celsius, Fahrenheit, and Kelvin with real-time input and results display.</p>
+                        <p>User-friendly input fields for temperature values.
+                            Instant conversion between units.
+                            Clean and minimalistic design for better usability.</p>
+                        <!-- Task: Temperature Converter -->
+                        
+                        <p>Languages used: HTML, CSS</p> 
+                        <p>GitHub link:<a href="https://github.com/ShriSanjay15/Temperature-convertor/tree/main/temperature%20conventer" target="_blank">Click here</a></p>
+                </div>
+                <div class="content6">
+                    <img src="tem con2.jpg">
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="line">
+        <hr>
+    </div>
+    <div class="container4">
+        <!-- <div class="call">
+            <div class="head5">
+                <p><b>Phone</b></p>
+            </div>
+            <p>+917358741225</p>
+        </div> -->
+        <div class="to send">
+            <div class="head5">
+                <p><b>Email</b></p>
+            </div>
+            <p>shrisanjay1715@gmail.com</p>
+        </div>
+        <div class="req">
+            <div class="head5">
+                <p><b>Follow Me</b></p>
+            </div>
+            <a href="https://www.linkedin.com/in/shri-sanjay-305b07241/" target="_blank"><i class="bi bi-linkedin"></i></a>
+            <a href="https://github.com/ShriSanjay15" target="_blank"><i class="bi bi-github"></i></a>
+        </div>
+        <div class="right">
+            <p>&copy; 2025 By Shri Sanjay Varshan.</p>
+        </div>
+    </div>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
